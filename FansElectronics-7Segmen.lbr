@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -1040,7 +1040,7 @@ Version: 2.0 / 22.01.2017&lt;br&gt;
 <vertex x="22.575" y="-0.425"/>
 </polygon>
 </package>
-<package name="2.5INC">
+<package name="2.2&quot;">
 <wire x1="-23.955" y1="35.495" x2="23.955" y2="35.495" width="0.2498" layer="21"/>
 <wire x1="23.955" y1="-34.225" x2="-23.955" y2="-34.225" width="0.2498" layer="21"/>
 <wire x1="-23.955" y1="35.495" x2="-23.955" y2="-34.225" width="0.2498" layer="21"/>
@@ -1111,23 +1111,23 @@ Version: 2.0 / 22.01.2017&lt;br&gt;
 <vertex x="9.1358" y="-1.2546"/>
 </polygon>
 </package>
-<package name="0.56INC">
+<package name="0.56&quot;">
 <wire x1="6.273" y1="-9.434" x2="6.273" y2="9.434" width="0.1524" layer="21"/>
 <wire x1="-6.273" y1="9.434" x2="6.273" y2="9.434" width="0.1524" layer="21"/>
 <wire x1="-6.273" y1="9.434" x2="-6.273" y2="-9.434" width="0.1524" layer="21"/>
 <wire x1="6.273" y1="-9.434" x2="-6.273" y2="-9.434" width="0.1524" layer="21"/>
 <wire x1="2.4372" y1="-6.5358" x2="2.107" y2="-6.866" width="0.4064" layer="51"/>
 <circle x="4.572" y="-6.35" radius="0.381" width="0.762" layer="51"/>
-<pad name="1" x="-5.08" y="-7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="-7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="3" x="0" y="-7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="4" x="2.54" y="-7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="5" x="5.08" y="-7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="6" x="5.08" y="7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="7" x="2.54" y="7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="8" x="0" y="7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="9" x="-2.54" y="7.62" drill="0.8" shape="long" rot="R90"/>
-<pad name="10" x="-5.08" y="7.62" drill="0.8" shape="long" rot="R90"/>
+<pad name="1" x="-5.08" y="-7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="2" x="-2.54" y="-7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="3" x="0" y="-7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="4" x="2.54" y="-7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="5" x="5.08" y="-7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="6" x="5.08" y="7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="7" x="2.54" y="7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="8" x="0" y="7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="9" x="-2.54" y="7.62" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="10" x="-5.08" y="7.62" drill="0.8" shape="octagon" rot="R90"/>
 <text x="-6.35" y="10.16" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.35" y="-11.43" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <polygon width="0.4064" layer="51">
@@ -1182,6 +1182,229 @@ Version: 2.0 / 22.01.2017&lt;br&gt;
 <vertex x="4.1" y="-0.425"/>
 <vertex x="3.525" y="-0.425"/>
 </polygon>
+</package>
+<package name="1.0&quot;">
+<circle x="9.05" y="-12.9" radius="1.125" width="0" layer="51"/>
+<pad name="1" x="-5.08" y="-15.2" drill="0.9" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="2" x="-2.54" y="-15.2" drill="0.9" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="3" x="0" y="-15.2" drill="0.9" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="4" x="2.54" y="-15.2" drill="0.9" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="5" x="5.08" y="-15.2" drill="0.9" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="6" x="5.08" y="15.28" drill="0.9" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="7" x="2.54" y="15.28" drill="0.9" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="8" x="0" y="15.28" drill="0.9" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="9" x="-2.54" y="15.28" drill="0.9" diameter="1.6764" shape="octagon" rot="R270"/>
+<pad name="10" x="-5.08" y="15.28" drill="0.9" diameter="1.6764" shape="octagon" rot="R270"/>
+<text x="-11.43" y="17.78" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-9.525" y="-1.905" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<polygon width="0.7314" layer="51" spacing="2.286">
+<vertex x="-2.565" y="10.98"/>
+<vertex x="-2.25" y="12.78"/>
+<vertex x="6.615" y="12.78"/>
+<vertex x="6.39" y="10.98"/>
+</polygon>
+<polygon width="0.7314" layer="51" spacing="2.286">
+<vertex x="5.8617" y="1.8999"/>
+<vertex x="7.763" y="12.6979"/>
+<vertex x="8.3196" y="12.7127" curve="-104.72574"/>
+<vertex x="9.4559" y="11.1668"/>
+<vertex x="7.56" y="0.9"/>
+<vertex x="6.705" y="0.9"/>
+</polygon>
+<polygon width="0.7314" layer="51" spacing="2.286">
+<vertex x="-5.31" y="1.98"/>
+<vertex x="-3.42" y="12.78"/>
+<vertex x="-3.915" y="12.78" curve="77.707709"/>
+<vertex x="-5.535" y="11.475"/>
+<vertex x="-7.38" y="0.9"/>
+<vertex x="-6.345" y="0.9"/>
+</polygon>
+<polygon width="0.7314" layer="51" spacing="2.286">
+<vertex x="-5.49" y="0.045"/>
+<vertex x="-4.365" y="1.17"/>
+<vertex x="4.86" y="1.17"/>
+<vertex x="5.535" y="0.225"/>
+<vertex x="4.725" y="-0.63"/>
+<vertex x="-4.815" y="-0.63"/>
+</polygon>
+<polygon width="0.7314" layer="51" spacing="2.286">
+<vertex x="2.7" y="-10.485"/>
+<vertex x="2.385" y="-12.285"/>
+<vertex x="-6.48" y="-12.285"/>
+<vertex x="-6.255" y="-10.485"/>
+</polygon>
+<polygon width="0.7314" layer="51" spacing="2.286">
+<vertex x="-5.8617" y="-1.3149"/>
+<vertex x="-7.628" y="-12.2029"/>
+<vertex x="-8.1846" y="-12.2177" curve="-104.72574"/>
+<vertex x="-9.3209" y="-10.6718"/>
+<vertex x="-7.56" y="-0.315"/>
+<vertex x="-6.705" y="-0.315"/>
+</polygon>
+<polygon width="0.7314" layer="51" spacing="2.286">
+<vertex x="5.355" y="-1.755"/>
+<vertex x="3.555" y="-12.285"/>
+<vertex x="4.05" y="-12.285" curve="77.707709"/>
+<vertex x="5.67" y="-10.98"/>
+<vertex x="7.38" y="-0.765"/>
+<vertex x="6.345" y="-0.765"/>
+</polygon>
+<wire x1="-12" y1="17" x2="12" y2="17" width="0.127" layer="21"/>
+<wire x1="12" y1="17" x2="12" y2="-17" width="0.127" layer="21"/>
+<wire x1="12" y1="-17" x2="-12" y2="-17" width="0.127" layer="21"/>
+<wire x1="-12" y1="-17" x2="-12" y2="17" width="0.127" layer="21"/>
+</package>
+<package name="1.2&quot;">
+<text x="-14.43" y="20.78" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-15.525" y="-20.905" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="-3.7466" y="12.6422"/>
+<vertex x="-3.23" y="15.5942"/>
+<vertex x="5.3086" y="15.5942"/>
+<vertex x="4.9396" y="12.6422"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="5.0732" y="2.7508"/>
+<vertex x="7.1913" y="15.4596"/>
+<vertex x="8.1041" y="15.4838" curve="-104.725326"/>
+<vertex x="9.9677" y="12.9486"/>
+<vertex x="7.8584" y="1.111"/>
+<vertex x="6.4562" y="1.111"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="-7.2484" y="2.8822"/>
+<vertex x="-5.1488" y="15.5942"/>
+<vertex x="-5.9606" y="15.5942" curve="77.708388"/>
+<vertex x="-8.6174" y="13.454"/>
+<vertex x="-10.6432" y="1.111"/>
+<vertex x="-8.9458" y="1.111"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="-7.5436" y="-0.2912"/>
+<vertex x="-5.6986" y="1.5538"/>
+<vertex x="3.4304" y="1.5538"/>
+<vertex x="4.5374" y="0.004"/>
+<vertex x="3.209" y="-1.3982"/>
+<vertex x="-6.4366" y="-1.3982"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="0.888" y="-12.5604"/>
+<vertex x="0.3714" y="-15.5124"/>
+<vertex x="-8.1672" y="-15.5124"/>
+<vertex x="-7.7982" y="-12.5604"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="-8.1532" y="-2.5214"/>
+<vertex x="-10.0499" y="-15.3778"/>
+<vertex x="-10.9627" y="-15.402" curve="-104.725326"/>
+<vertex x="-12.8263" y="-12.8668"/>
+<vertex x="-10.9384" y="-0.8816"/>
+<vertex x="-9.5362" y="-0.8816"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="4.2422" y="-3.2432"/>
+<vertex x="2.2902" y="-15.5124"/>
+<vertex x="3.102" y="-15.5124" curve="77.708388"/>
+<vertex x="5.7588" y="-13.3722"/>
+<vertex x="7.5632" y="-1.6196"/>
+<vertex x="5.8658" y="-1.6196"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="8.73" y="-14.365" curve="90"/>
+<vertex x="9.98" y="-15.615" curve="90"/>
+<vertex x="11.23" y="-14.365" curve="90"/>
+<vertex x="9.98" y="-13.115" curve="90"/>
+</polygon>
+<pad name="1" x="-6.35" y="-17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="2" x="-3.81" y="-17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="-1.27" y="-17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="4" x="1.27" y="-17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="-17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="10" x="-6.35" y="17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="9" x="-3.81" y="17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="8" x="-1.27" y="17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="7" x="1.27" y="17.78" drill="0.8" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="17.78" drill="0.8" shape="long" rot="R90"/>
+<wire x1="-15.6675" y1="20.4" x2="13.1275" y2="20.4" width="0.127" layer="21"/>
+<wire x1="13.1275" y1="20.4" x2="13.1275" y2="-20.4" width="0.127" layer="21"/>
+<wire x1="13.1275" y1="-20.4" x2="-15.6675" y2="-20.4" width="0.127" layer="21"/>
+<wire x1="-15.6675" y1="-20.4" x2="-15.6675" y2="20.4" width="0.127" layer="21"/>
+</package>
+<package name="1.5&quot;">
+<text x="-13.16" y="20.78" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-14.255" y="-20.905" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="-2.4766" y="12.6422"/>
+<vertex x="-1.96" y="15.5942"/>
+<vertex x="6.5786" y="15.5942"/>
+<vertex x="6.2096" y="12.6422"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="6.3432" y="2.7508"/>
+<vertex x="8.4613" y="15.4596"/>
+<vertex x="9.3741" y="15.4838" curve="-104.725326"/>
+<vertex x="11.2377" y="12.9486"/>
+<vertex x="9.1284" y="1.111"/>
+<vertex x="7.7262" y="1.111"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="-5.9784" y="2.8822"/>
+<vertex x="-3.8788" y="15.5942"/>
+<vertex x="-4.6906" y="15.5942" curve="77.708388"/>
+<vertex x="-7.3474" y="13.454"/>
+<vertex x="-9.3732" y="1.111"/>
+<vertex x="-7.6758" y="1.111"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="-6.2736" y="-0.2912"/>
+<vertex x="-4.4286" y="1.5538"/>
+<vertex x="4.7004" y="1.5538"/>
+<vertex x="5.8074" y="0.004"/>
+<vertex x="4.479" y="-1.3982"/>
+<vertex x="-5.1666" y="-1.3982"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="2.158" y="-12.5604"/>
+<vertex x="1.6414" y="-15.5124"/>
+<vertex x="-6.8972" y="-15.5124"/>
+<vertex x="-6.5282" y="-12.5604"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="-6.8832" y="-2.5214"/>
+<vertex x="-8.7799" y="-15.3778"/>
+<vertex x="-9.6927" y="-15.402" curve="-104.725326"/>
+<vertex x="-11.5563" y="-12.8668"/>
+<vertex x="-9.6684" y="-0.8816"/>
+<vertex x="-8.2662" y="-0.8816"/>
+</polygon>
+<polygon width="1.1994" layer="51" spacing="3.749">
+<vertex x="5.5122" y="-3.2432"/>
+<vertex x="3.5602" y="-15.5124"/>
+<vertex x="4.372" y="-15.5124" curve="77.708388"/>
+<vertex x="7.0288" y="-13.3722"/>
+<vertex x="8.8332" y="-1.6196"/>
+<vertex x="7.1358" y="-1.6196"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="10" y="-14.365" curve="90"/>
+<vertex x="11.25" y="-15.615" curve="90"/>
+<vertex x="12.5" y="-14.365" curve="90"/>
+<vertex x="11.25" y="-13.115" curve="90"/>
+</polygon>
+<pad name="1" x="-5.08" y="-19.35" drill="0.8" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="-19.35" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="0" y="-19.35" drill="0.8" shape="long" rot="R90"/>
+<pad name="4" x="2.54" y="-19.35" drill="0.8" shape="long" rot="R90"/>
+<pad name="5" x="5.08" y="-19.35" drill="0.8" shape="long" rot="R90"/>
+<pad name="10" x="-5.08" y="20.62" drill="0.8" shape="long" rot="R90"/>
+<pad name="9" x="-2.54" y="20.62" drill="0.8" shape="long" rot="R90"/>
+<pad name="8" x="0" y="20.62" drill="0.8" shape="long" rot="R90"/>
+<pad name="7" x="2.54" y="20.62" drill="0.8" shape="long" rot="R90"/>
+<pad name="6" x="5.08" y="20.62" drill="0.8" shape="long" rot="R90"/>
+<wire x1="-15.3" y1="22.635" x2="15.3" y2="22.635" width="0.127" layer="21"/>
+<wire x1="15.3" y1="22.635" x2="15.3" y2="-21.365" width="0.127" layer="21"/>
+<wire x1="15.3" y1="-21.365" x2="-15.3" y2="-21.365" width="0.127" layer="21"/>
+<wire x1="-15.3" y1="-21.365" x2="-15.3" y2="22.635" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1529,7 +1752,7 @@ Tersedia Ukuran 0.56", 1"</description>
 <gate name="G$1" symbol="7SEG-2COM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="2.5INC">
+<device name="" package="2.2&quot;">
 <connects>
 <connect gate="G$1" pin="A" pad="7"/>
 <connect gate="G$1" pin="B" pad="6"/>
@@ -1553,7 +1776,7 @@ Tersedia Ukuran 0.56", 1"</description>
 <gate name="G$1" symbol="7SEG-2COM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="0.56INC">
+<device name="" package="0.56&quot;">
 <connects>
 <connect gate="G$1" pin="A" pad="7"/>
 <connect gate="G$1" pin="B" pad="6"/>
@@ -1563,6 +1786,78 @@ Tersedia Ukuran 0.56", 1"</description>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="DP" pad="5"/>
 <connect gate="G$1" pin="E" pad="1"/>
+<connect gate="G$1" pin="F" pad="9"/>
+<connect gate="G$1" pin="G" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1-INCH" prefix="DISP">
+<gates>
+<gate name="G$1" symbol="7SEG-2COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1.0&quot;">
+<connects>
+<connect gate="G$1" pin="A" pad="7"/>
+<connect gate="G$1" pin="B" pad="6"/>
+<connect gate="G$1" pin="C" pad="4"/>
+<connect gate="G$1" pin="COM@1" pad="3"/>
+<connect gate="G$1" pin="COM@2" pad="8"/>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="DP" pad="5"/>
+<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="G$1" pin="F" pad="9"/>
+<connect gate="G$1" pin="G" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.2-INCH" prefix="DISP">
+<gates>
+<gate name="G$1" symbol="7SEG-2COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1.2&quot;">
+<connects>
+<connect gate="G$1" pin="A" pad="7"/>
+<connect gate="G$1" pin="B" pad="6"/>
+<connect gate="G$1" pin="C" pad="4"/>
+<connect gate="G$1" pin="COM@1" pad="1"/>
+<connect gate="G$1" pin="COM@2" pad="5"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="DP" pad="8"/>
+<connect gate="G$1" pin="E" pad="2"/>
+<connect gate="G$1" pin="F" pad="9"/>
+<connect gate="G$1" pin="G" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.5-INCH" prefix="DISP">
+<gates>
+<gate name="G$1" symbol="7SEG-2COM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1.5&quot;">
+<connects>
+<connect gate="G$1" pin="A" pad="7"/>
+<connect gate="G$1" pin="B" pad="6"/>
+<connect gate="G$1" pin="C" pad="4"/>
+<connect gate="G$1" pin="COM@1" pad="1"/>
+<connect gate="G$1" pin="COM@2" pad="5"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="DP" pad="8"/>
+<connect gate="G$1" pin="E" pad="2"/>
 <connect gate="G$1" pin="F" pad="9"/>
 <connect gate="G$1" pin="G" pad="10"/>
 </connects>

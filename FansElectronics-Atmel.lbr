@@ -69,15 +69,15 @@
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;h1&gt;Fans Electronics&lt;/h1&gt;
+<description>&lt;h1&gt;SFE Electronics&lt;/h1&gt;
 &lt;br&gt;
 Public Eagle Library, bertujuan untuk memudahkan dalam mencari komponen yang dibutuhkan. untuk info dan request kunjungi website resmi kami :
 &lt;br&gt;
 &lt;br&gt;
-&lt;a href="http://www.fanselectronics.com/" &gt;http://www.fanselectronics.com/&lt;/a&gt;
+&lt;a href="http://www.sfe-electronics.com/" &gt;http://www.sfe-electronics.com/&lt;/a&gt;
 &lt;br&gt;
 &lt;br&gt;
-&lt;b&gt;&amp;copy;Fans Electronics&lt;/b&gt;
+&lt;b&gt;&amp;copy;SFE Electronics&lt;/b&gt;
 &lt;br&gt;
 Version: 2.0 / 22.01.2017&lt;br&gt;
 &lt;author&gt;Created by Irfan Indra Kurniawan&lt;/author&gt;</description>
@@ -9320,13 +9320,13 @@ Source: &lt;a href="http://www.atmel.com/Images/doc2543.pdf"&gt; Data sheet &lt;
 <pin name="(TCK)PC2" x="20.32" y="-17.78" length="middle" rot="R180"/>
 <pin name="(SDA)PC1" x="20.32" y="-20.32" length="middle" rot="R180"/>
 <pin name="(SCL)PC0" x="20.32" y="-22.86" length="middle" rot="R180"/>
-<pin name="GND@1" x="-20.32" y="-2.54" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-20.32" y="-10.16" length="middle" direction="pwr"/>
 <pin name="AVCC" x="-20.32" y="7.62" length="middle" direction="pwr"/>
 <pin name="AREF" x="-20.32" y="5.08" length="middle" direction="pas"/>
 <pin name="XTAL1" x="-20.32" y="25.4" length="middle"/>
 <pin name="XTAL2" x="-20.32" y="30.48" length="middle"/>
 <pin name="VCC" x="-20.32" y="10.16" length="middle" direction="pwr"/>
-<pin name="GND" x="-20.32" y="0" length="middle" direction="pwr"/>
+<pin name="GND" x="-20.32" y="-7.62" length="middle" direction="pwr"/>
 <pin name="RESET" x="-20.32" y="40.64" length="middle" direction="in" function="dot"/>
 <pin name="(RXD)PD0" x="20.32" y="-45.72" length="middle" rot="R180"/>
 <pin name="(TXD)PD1" x="20.32" y="-43.18" length="middle" rot="R180"/>
@@ -9420,13 +9420,13 @@ Source: &lt;a href="http://www.atmel.com/Images/doc2543.pdf"&gt; Data sheet &lt;
 <pin name="(TCK)PC2" x="20.32" y="-15.24" length="middle" rot="R180"/>
 <pin name="(SDA)PC1" x="20.32" y="-17.78" length="middle" rot="R180"/>
 <pin name="(SCL)PC0" x="20.32" y="-20.32" length="middle" rot="R180"/>
-<pin name="GND@1" x="-20.32" y="20.32" length="middle" direction="pwr"/>
-<pin name="AVCC" x="-20.32" y="22.86" length="middle" direction="pwr"/>
-<pin name="AREF" x="-20.32" y="25.4" length="middle" direction="pas"/>
+<pin name="GND@1" x="-20.32" y="-5.08" length="middle" direction="pwr"/>
+<pin name="AVCC" x="-20.32" y="15.24" length="middle" direction="pwr"/>
+<pin name="AREF" x="-20.32" y="12.7" length="middle" direction="pas"/>
 <pin name="XTAL1" x="-20.32" y="30.48" length="middle"/>
 <pin name="XTAL2" x="-20.32" y="35.56" length="middle"/>
-<pin name="VCC" x="-20.32" y="15.24" length="middle" direction="pwr"/>
-<pin name="GND" x="-20.32" y="12.7" length="middle" direction="pwr"/>
+<pin name="VCC" x="-20.32" y="17.78" length="middle" direction="pwr"/>
+<pin name="GND" x="-20.32" y="-2.54" length="middle" direction="pwr"/>
 <pin name="RESET" x="-20.32" y="43.18" length="middle" direction="in" function="dot"/>
 <pin name="(RXD)PD0" x="20.32" y="-43.18" length="middle" rot="R180"/>
 <pin name="(TXD)PD1" x="20.32" y="-40.64" length="middle" rot="R180"/>
