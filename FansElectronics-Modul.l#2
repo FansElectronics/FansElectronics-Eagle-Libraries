@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1210,22 +1210,6 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <wire x1="-4" y1="-42.5" x2="-4" y2="-36.5" width="0.127" layer="23" curve="-77.319617"/>
 <wire x1="-5" y1="-43.5" x2="-5" y2="-35.5" width="0.127" layer="23" curve="-83.64034"/>
 <wire x1="-6" y1="-44.5" x2="-6" y2="-34.5" width="0.127" layer="23" curve="-82.37185"/>
-</package>
-<package name="HX711">
-<pad name="P$1" x="-13.97" y="3.81" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$2" x="-13.97" y="1.27" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$3" x="-13.97" y="-1.27" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$4" x="-13.97" y="-3.81" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$5" x="-13.97" y="-6.35" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$6" x="13.97" y="3.81" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$7" x="13.97" y="1.27" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$8" x="13.97" y="-1.27" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$9" x="13.97" y="-3.81" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="P$10" x="13.97" y="-6.35" drill="0.8" diameter="1.4224" shape="octagon"/>
-<wire x1="-15.24" y1="10.16" x2="15.24" y2="10.16" width="0.127" layer="21"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.127" layer="21"/>
-<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="10.16" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

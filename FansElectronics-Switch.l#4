@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -970,19 +970,6 @@ Version: 2.0 / 22.01.2017&lt;br&gt;
 <wire x1="-3" y1="-39" x2="3" y2="-39" width="0.127" layer="51"/>
 <wire x1="3" y1="-39" x2="4" y2="-38" width="0.127" layer="51" curve="90"/>
 </package>
-<package name="MECHA-KEYBOARD">
-<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="21"/>
-<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="21"/>
-<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="21"/>
-<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="21"/>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0.127" layer="21"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0.127" layer="21"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.127" layer="21"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.127" layer="21"/>
-<pad name="1" x="-2.5" y="-5.5" drill="1.5" diameter="3.2"/>
-<pad name="2" x="4" y="-3" drill="1.5" diameter="3.2"/>
-<hole x="0" y="0" drill="2.8"/>
-</package>
 </packages>
 <symbols>
 <symbol name="TACT">
@@ -1298,22 +1285,6 @@ biasa juga disebut Switch Omron / Micro Switch</description>
 <connect gate="G$2" pin="O" pad="NC2"/>
 <connect gate="G$2" pin="P" pad="COM2"/>
 <connect gate="G$2" pin="S" pad="NO2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MECHA-KEYBOARD" prefix="S">
-<gates>
-<gate name="G$1" symbol="TACT-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MECHA-KEYBOARD">
-<connects>
-<connect gate="G$1" pin="S" pad="1"/>
-<connect gate="G$1" pin="S1" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
