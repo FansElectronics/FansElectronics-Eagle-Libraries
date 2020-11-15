@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -1103,16 +1103,16 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <wire x1="18.415" y1="0" x2="19.05" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="19.05" y1="-1.905" x2="18.415" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="18.415" y1="-2.54" x2="19.05" y2="-3.175" width="0.127" layer="21"/>
-<text x="-15.875" y="6.35" size="1.27" layer="21" align="center-left">32K</text>
-<text x="-15.875" y="3.81" size="1.27" layer="21" align="center-left">SQW</text>
-<text x="-15.875" y="1.27" size="1.27" layer="21" align="center-left">SCL</text>
-<text x="-15.875" y="-1.27" size="1.27" layer="21" align="center-left">SDA</text>
-<text x="-15.875" y="-3.81" size="1.27" layer="21" align="center-left">VCC</text>
-<text x="-15.875" y="-6.35" size="1.27" layer="21" align="center-left">GND</text>
-<text x="15.875" y="3.81" size="1.27" layer="21" align="center-right">SCL</text>
-<text x="15.875" y="1.27" size="1.27" layer="21" align="center-right">SDA</text>
-<text x="15.875" y="-1.27" size="1.27" layer="21" align="center-right">VCC</text>
-<text x="15.875" y="-3.81" size="1.27" layer="21" align="center-right">GND</text>
+<text x="-15.875" y="6.35" size="1.27" layer="25" align="center-left">32K</text>
+<text x="-15.875" y="3.81" size="1.27" layer="25" align="center-left">SQW</text>
+<text x="-15.875" y="1.27" size="1.27" layer="25" align="center-left">SCL</text>
+<text x="-15.875" y="-1.27" size="1.27" layer="25" align="center-left">SDA</text>
+<text x="-15.875" y="-3.81" size="1.27" layer="25" align="center-left">VCC</text>
+<text x="-15.875" y="-6.35" size="1.27" layer="25" align="center-left">GND</text>
+<text x="15.875" y="3.81" size="1.27" layer="25" align="center-right">SCL</text>
+<text x="15.875" y="1.27" size="1.27" layer="25" align="center-right">SDA</text>
+<text x="15.875" y="-1.27" size="1.27" layer="25" align="center-right">VCC</text>
+<text x="15.875" y="-3.81" size="1.27" layer="25" align="center-right">GND</text>
 <wire x1="-19.304" y1="11.684" x2="-19.304" y2="-11.684" width="0.127" layer="21"/>
 <wire x1="19.304" y1="11.684" x2="19.304" y2="-11.684" width="0.127" layer="21"/>
 <circle x="-11.43" y="9.525" radius="0.898025" width="0.127" layer="21"/>
@@ -1350,6 +1350,101 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <wire x1="21.59" y1="3.81" x2="21.59" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="21.59" y1="-6.35" x2="-8.89" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="-6.35" x2="-8.89" y2="3.81" width="0.127" layer="21"/>
+</package>
+<package name="RTC-DS3231-MIRROR">
+<wire x1="-19.304" y1="11.684" x2="19.304" y2="11.684" width="0.127" layer="21"/>
+<wire x1="19.05" y1="4.445" x2="19.05" y2="3.175" width="0.127" layer="21"/>
+<wire x1="19.05" y1="1.905" x2="19.05" y2="0.635" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-0.635" x2="19.05" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-3.175" x2="19.05" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="19.304" y1="-11.684" x2="-19.304" y2="-11.684" width="0.127" layer="21"/>
+<pad name="J1.1" x="-17.78" y="-6.35" drill="1" shape="square"/>
+<pad name="J1.2" x="-17.78" y="-3.81" drill="1"/>
+<pad name="J1.3" x="-17.78" y="-1.27" drill="1"/>
+<pad name="J1.4" x="-17.78" y="1.27" drill="1"/>
+<pad name="J1.5" x="-17.78" y="3.81" drill="1"/>
+<pad name="J2.1" x="17.78" y="-3.81" drill="1" shape="square"/>
+<pad name="J2.2" x="17.78" y="-1.27" drill="1"/>
+<pad name="J2.3" x="17.78" y="1.27" drill="1"/>
+<pad name="J2.4" x="17.78" y="3.81" drill="1"/>
+<text x="0" y="12.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-12.7" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<pad name="J1.6" x="-17.78" y="6.35" drill="1"/>
+<wire x1="-19.05" y1="-6.985" x2="-19.05" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-4.445" x2="-19.05" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-1.905" x2="-19.05" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="0.635" x2="-19.05" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="3.175" x2="-19.05" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="5.715" x2="-19.05" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="6.985" x2="-18.415" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="7.62" x2="-17.145" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-17.145" y1="7.62" x2="-16.51" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="6.985" x2="-16.51" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="5.715" x2="-17.145" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-17.145" y1="5.08" x2="-16.51" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="4.445" x2="-16.51" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="3.175" x2="-17.145" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-17.145" y1="2.54" x2="-16.51" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="1.905" x2="-16.51" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="0.635" x2="-17.145" y2="0" width="0.127" layer="21"/>
+<wire x1="-17.145" y1="0" x2="-16.51" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-0.635" x2="-16.51" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-1.905" x2="-17.145" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-17.145" y1="-2.54" x2="-16.51" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-3.175" x2="-16.51" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-4.445" x2="-17.145" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-17.145" y1="-5.08" x2="-16.51" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-5.715" x2="-16.51" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-6.985" x2="-17.145" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-17.145" y1="-7.62" x2="-18.415" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="-7.62" x2="-19.05" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-5.715" x2="-18.415" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="-5.08" x2="-19.05" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-3.175" x2="-18.415" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="-2.54" x2="-19.05" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-0.635" x2="-18.415" y2="0" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="0" x2="-19.05" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="1.905" x2="-18.415" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="2.54" x2="-19.05" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="4.445" x2="-18.415" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="5.08" x2="-19.05" y2="5.715" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-4.445" x2="18.415" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="18.415" y1="-5.08" x2="17.145" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="17.145" y1="-5.08" x2="16.51" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-4.445" x2="16.51" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-3.175" x2="17.145" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="17.145" y1="-2.54" x2="16.51" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-1.905" x2="16.51" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-0.635" x2="17.145" y2="0" width="0.127" layer="21"/>
+<wire x1="17.145" y1="0" x2="16.51" y2="0.635" width="0.127" layer="21"/>
+<wire x1="16.51" y1="0.635" x2="16.51" y2="1.905" width="0.127" layer="21"/>
+<wire x1="16.51" y1="1.905" x2="17.145" y2="2.54" width="0.127" layer="21"/>
+<wire x1="17.145" y1="2.54" x2="16.51" y2="3.175" width="0.127" layer="21"/>
+<wire x1="16.51" y1="3.175" x2="16.51" y2="4.445" width="0.127" layer="21"/>
+<wire x1="16.51" y1="4.445" x2="17.145" y2="5.08" width="0.127" layer="21"/>
+<wire x1="17.145" y1="5.08" x2="18.415" y2="5.08" width="0.127" layer="21"/>
+<wire x1="18.415" y1="5.08" x2="19.05" y2="4.445" width="0.127" layer="21"/>
+<wire x1="19.05" y1="3.175" x2="18.415" y2="2.54" width="0.127" layer="21"/>
+<wire x1="18.415" y1="2.54" x2="19.05" y2="1.905" width="0.127" layer="21"/>
+<wire x1="19.05" y1="0.635" x2="18.415" y2="0" width="0.127" layer="21"/>
+<wire x1="18.415" y1="0" x2="19.05" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-1.905" x2="18.415" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="18.415" y1="-2.54" x2="19.05" y2="-3.175" width="0.127" layer="21"/>
+<text x="-15.875" y="-6.35" size="1.27" layer="25" align="center-left">32K</text>
+<text x="-15.875" y="-3.81" size="1.27" layer="25" align="center-left">SQW</text>
+<text x="-15.875" y="-1.27" size="1.27" layer="25" align="center-left">SCL</text>
+<text x="-15.875" y="1.27" size="1.27" layer="25" align="center-left">SDA</text>
+<text x="-15.875" y="3.81" size="1.27" layer="25" align="center-left">VCC</text>
+<text x="-15.875" y="6.35" size="1.27" layer="25" align="center-left">GND</text>
+<text x="15.875" y="-3.81" size="1.27" layer="25" align="center-right">SCL</text>
+<text x="15.875" y="-1.27" size="1.27" layer="25" align="center-right">SDA</text>
+<text x="15.875" y="1.27" size="1.27" layer="25" align="center-right">VCC</text>
+<text x="15.875" y="3.81" size="1.27" layer="25" align="center-right">GND</text>
+<wire x1="-19.304" y1="11.684" x2="-19.304" y2="-11.684" width="0.127" layer="21"/>
+<wire x1="19.304" y1="11.684" x2="19.304" y2="-11.684" width="0.127" layer="21"/>
+<circle x="-11.43" y="9.525" radius="0.898025" width="0.127" layer="21"/>
+<circle x="15.24" y="9.525" radius="0.898025" width="0.127" layer="21"/>
+<circle x="-11.43" y="-9.525" radius="0.898025" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2193,7 +2288,24 @@ MODULE</text>
 <gate name="G$1" symbol="RTC-3231" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RTC-DS3231">
+<device name="&quot;" package="RTC-DS3231">
+<connects>
+<connect gate="G$1" pin="32K" pad="J1.1"/>
+<connect gate="G$1" pin="GND.1" pad="J1.6"/>
+<connect gate="G$1" pin="GND.2" pad="J2.4"/>
+<connect gate="G$1" pin="SCL.1" pad="J1.3"/>
+<connect gate="G$1" pin="SCL.2" pad="J2.1"/>
+<connect gate="G$1" pin="SDA.1" pad="J1.4"/>
+<connect gate="G$1" pin="SDA.2" pad="J2.2"/>
+<connect gate="G$1" pin="SQW" pad="J1.2"/>
+<connect gate="G$1" pin="VCC.1" pad="J1.5"/>
+<connect gate="G$1" pin="VCC.2" pad="J2.3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MIRROR" package="RTC-DS3231-MIRROR">
 <connects>
 <connect gate="G$1" pin="32K" pad="J1.1"/>
 <connect gate="G$1" pin="GND.1" pad="J1.6"/>
