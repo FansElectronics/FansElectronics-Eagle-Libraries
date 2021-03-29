@@ -1454,6 +1454,146 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 </package>
 <package name="POWERBANK2">
 </package>
+<package name="ESP32">
+<wire x1="8.38" y1="-11.43" x2="8.38" y2="12.57" width="0.127" layer="21"/>
+<wire x1="8.38" y1="12.57" x2="-7.62" y2="12.57" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="12.57" x2="-7.62" y2="-11.43" width="0.127" layer="21"/>
+<smd name="IO27" x="-7.32" y="-9.93" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO26" x="-7.32" y="-8.43" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO25" x="-7.32" y="-6.93" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO33" x="-7.32" y="-5.43" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO32" x="-7.32" y="-3.93" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO35" x="-7.32" y="-2.43" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO34" x="-7.32" y="-0.93" dx="1.2" dy="1.1" layer="1"/>
+<smd name="SVN" x="-7.32" y="0.57" dx="1.2" dy="1.1" layer="1"/>
+<smd name="SVP" x="-7.32" y="2.07" dx="1.2" dy="1.1" layer="1"/>
+<smd name="EN" x="-7.32" y="3.57" dx="1.2" dy="1.1" layer="1"/>
+<smd name="GND_L" x="-7.32" y="5.07" dx="1.2" dy="1.1" layer="1"/>
+<smd name="3V3" x="8.08" y="-9.93" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO17" x="8.08" y="-8.43" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO5" x="8.08" y="-6.93" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO18" x="8.08" y="-5.43" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO23" x="8.08" y="-3.93" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO19" x="8.08" y="-2.43" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO22" x="8.08" y="-0.93" dx="1.2" dy="1.1" layer="1"/>
+<smd name="U0RX" x="8.08" y="0.57" dx="1.2" dy="1.1" layer="1"/>
+<smd name="U0TX" x="8.08" y="2.07" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO21" x="8.08" y="3.57" dx="1.2" dy="1.1" layer="1"/>
+<smd name="GND_R" x="8.08" y="5.07" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO14" x="-5.62" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO12" x="-4.12" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<wire x1="-7.62" y1="-11.43" x2="8.38" y2="-11.43" width="0.127" layer="21"/>
+<smd name="IO13" x="-2.62" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO15" x="-1.12" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="GND_B" x="0.38" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO2" x="1.88" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO0" x="3.38" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO4" x="4.88" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO16" x="6.38" y="-11.13" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<rectangle x1="-7.62" y1="6.57" x2="8.38" y2="12.57" layer="39"/>
+<rectangle x1="-7.62" y1="6.57" x2="8.38" y2="12.57" layer="40"/>
+<wire x1="-6.62" y1="7.57" x2="-6.62" y2="11.57" width="0.8128" layer="21"/>
+<wire x1="-6.62" y1="11.57" x2="-4.12" y2="11.57" width="0.8128" layer="21"/>
+<wire x1="-4.12" y1="11.57" x2="-4.12" y2="9.07" width="0.8128" layer="21"/>
+<wire x1="-4.12" y1="9.07" x2="-1.62" y2="9.07" width="0.8128" layer="21"/>
+<wire x1="-1.62" y1="9.07" x2="-1.62" y2="11.57" width="0.8128" layer="21"/>
+<wire x1="-1.62" y1="11.57" x2="0.88" y2="11.57" width="0.8128" layer="21"/>
+<wire x1="0.88" y1="11.57" x2="0.88" y2="9.07" width="0.8128" layer="21"/>
+<wire x1="0.88" y1="9.07" x2="3.38" y2="9.07" width="0.8128" layer="21"/>
+<wire x1="3.38" y1="9.07" x2="3.38" y2="11.57" width="0.8128" layer="21"/>
+<wire x1="3.38" y1="11.57" x2="5.38" y2="11.57" width="0.8128" layer="21"/>
+<wire x1="5.38" y1="11.57" x2="7.38" y2="11.57" width="0.8128" layer="21"/>
+<wire x1="7.38" y1="11.57" x2="7.38" y2="7.07" width="0.8128" layer="21"/>
+<wire x1="5.38" y1="11.57" x2="5.38" y2="7.07" width="0.8128" layer="21"/>
+<text x="-0.12" y="14.705" size="2" layer="25" align="center">&gt;NAME</text>
+<text x="0.38" y="-14.255" size="2" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="ESP32-LABEL">
+<wire x1="-7.62" y1="-10.16" x2="8.38" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="8.38" y1="-10.16" x2="8.38" y2="13.84" width="0.127" layer="21"/>
+<wire x1="8.38" y1="13.84" x2="-7.62" y2="13.84" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="13.84" x2="-7.62" y2="-10.16" width="0.127" layer="21"/>
+<smd name="IO27" x="-7.32" y="-8.66" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO26" x="-7.32" y="-7.16" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO25" x="-7.32" y="-5.66" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO33" x="-7.32" y="-4.16" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO32" x="-7.32" y="-2.66" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO35" x="-7.32" y="-1.16" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO34" x="-7.32" y="0.34" dx="1.2" dy="1.1" layer="1"/>
+<smd name="SVN" x="-7.32" y="1.84" dx="1.2" dy="1.1" layer="1"/>
+<smd name="SVP" x="-7.32" y="3.34" dx="1.2" dy="1.1" layer="1"/>
+<smd name="EN" x="-7.32" y="4.84" dx="1.2" dy="1.1" layer="1"/>
+<smd name="GND_L" x="-7.32" y="6.34" dx="1.2" dy="1.1" layer="1"/>
+<smd name="3V3" x="8.08" y="-8.66" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO17" x="8.08" y="-7.16" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO5" x="8.08" y="-5.66" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO18" x="8.08" y="-4.16" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO23" x="8.08" y="-2.66" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO19" x="8.08" y="-1.16" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO22" x="8.08" y="0.34" dx="1.2" dy="1.1" layer="1"/>
+<smd name="U0RX" x="8.08" y="1.84" dx="1.2" dy="1.1" layer="1"/>
+<smd name="U0TX" x="8.08" y="3.34" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO21" x="8.08" y="4.84" dx="1.2" dy="1.1" layer="1"/>
+<smd name="GND_R" x="8.08" y="6.34" dx="1.2" dy="1.1" layer="1"/>
+<smd name="IO14" x="-5.62" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO12" x="-4.12" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<wire x1="-7.62" y1="-10.16" x2="8.38" y2="-10.16" width="0.127" layer="21"/>
+<smd name="IO13" x="-2.62" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO15" x="-1.12" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="GND_B" x="0.38" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO2" x="1.88" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO0" x="3.38" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO4" x="4.88" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<smd name="IO16" x="6.38" y="-9.86" dx="1.2" dy="1.1" layer="1" rot="R90"/>
+<rectangle x1="-7.62" y1="7.84" x2="8.38" y2="13.84" layer="39"/>
+<rectangle x1="-7.62" y1="7.84" x2="8.38" y2="13.84" layer="40"/>
+<wire x1="-6.62" y1="8.84" x2="-6.62" y2="12.84" width="0.8128" layer="21"/>
+<wire x1="-6.62" y1="12.84" x2="-4.12" y2="12.84" width="0.8128" layer="21"/>
+<wire x1="-4.12" y1="12.84" x2="-4.12" y2="10.34" width="0.8128" layer="21"/>
+<wire x1="-4.12" y1="10.34" x2="-1.62" y2="10.34" width="0.8128" layer="21"/>
+<wire x1="-1.62" y1="10.34" x2="-1.62" y2="12.84" width="0.8128" layer="21"/>
+<wire x1="-1.62" y1="12.84" x2="0.88" y2="12.84" width="0.8128" layer="21"/>
+<wire x1="0.88" y1="12.84" x2="0.88" y2="10.34" width="0.8128" layer="21"/>
+<wire x1="0.88" y1="10.34" x2="3.38" y2="10.34" width="0.8128" layer="21"/>
+<wire x1="3.38" y1="10.34" x2="3.38" y2="12.84" width="0.8128" layer="21"/>
+<wire x1="3.38" y1="12.84" x2="5.38" y2="12.84" width="0.8128" layer="21"/>
+<wire x1="5.38" y1="12.84" x2="7.38" y2="12.84" width="0.8128" layer="21"/>
+<wire x1="7.38" y1="12.84" x2="7.38" y2="8.34" width="0.8128" layer="21"/>
+<wire x1="5.38" y1="12.84" x2="5.38" y2="8.34" width="0.8128" layer="21"/>
+<text x="-0.12" y="15.34" size="2" layer="25" align="center">&gt;NAME</text>
+<text x="0.38" y="-16.16" size="2" layer="27" align="center">&gt;VALUE</text>
+<text x="-8.62" y="6.34" size="1.27" layer="21" align="center-right">GND</text>
+<text x="-8.62" y="4.84" size="1.27" layer="21" align="center-right">EN</text>
+<text x="-8.62" y="3.34" size="1.27" layer="21" align="center-right">SVP</text>
+<text x="-8.62" y="1.84" size="1.27" layer="21" align="center-right">SVN</text>
+<text x="-8.62" y="0.34" size="1.27" layer="21" align="center-right">IO34</text>
+<text x="-8.62" y="-1.16" size="1.27" layer="21" align="center-right">IO35</text>
+<text x="-8.62" y="-2.66" size="1.27" layer="21" align="center-right">IO32</text>
+<text x="-8.62" y="-4.16" size="1.27" layer="21" align="center-right">IO33</text>
+<text x="-8.62" y="-5.66" size="1.27" layer="21" align="center-right">IO25</text>
+<text x="-8.62" y="-7.16" size="1.27" layer="21" align="center-right">IO26</text>
+<text x="-8.62" y="-8.66" size="1.27" layer="21" align="center-right">IO27</text>
+<text x="9.38" y="6.34" size="1.27" layer="21" align="center-left">GND</text>
+<text x="9.38" y="4.84" size="1.27" layer="21" align="center-left">IO21</text>
+<text x="9.38" y="3.34" size="1.27" layer="21" align="center-left">U0TX</text>
+<text x="9.38" y="1.84" size="1.27" layer="21" align="center-left">U0RX</text>
+<text x="9.38" y="0.34" size="1.27" layer="21" align="center-left">IO22</text>
+<text x="9.38" y="-1.16" size="1.27" layer="21" align="center-left">IO19</text>
+<text x="9.38" y="-2.66" size="1.27" layer="21" align="center-left">IO23</text>
+<text x="9.38" y="-4.16" size="1.27" layer="21" align="center-left">IO18</text>
+<text x="9.38" y="-5.66" size="1.27" layer="21" align="center-left">IO5</text>
+<text x="9.38" y="-7.16" size="1.27" layer="21" align="center-left">IO17</text>
+<text x="9.38" y="-8.66" size="1.27" layer="21" align="center-left">3V3</text>
+<text x="6.38" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">IO16</text>
+<text x="4.88" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">IO4</text>
+<text x="3.38" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">IO0</text>
+<text x="1.88" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">IO2</text>
+<text x="0.38" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">GND</text>
+<text x="-1.12" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">IO15</text>
+<text x="-2.62" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">IO13</text>
+<text x="-4.12" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">IO12</text>
+<text x="-5.62" y="-11.16" size="1.27" layer="21" rot="R90" align="center-right">IO14</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -1971,6 +2111,45 @@ MODULE</text>
 <wire x1="17.78" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="10.16" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ESP32">
+<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<pin name="IO27" x="-22.86" y="-7.62" length="middle"/>
+<pin name="IO26" x="-22.86" y="-5.08" length="middle"/>
+<pin name="IO25" x="-22.86" y="-2.54" length="middle"/>
+<pin name="IO33" x="-22.86" y="0" length="middle"/>
+<pin name="IO32" x="-22.86" y="2.54" length="middle"/>
+<pin name="IO35" x="-22.86" y="5.08" length="middle"/>
+<pin name="IO34" x="-22.86" y="7.62" length="middle"/>
+<pin name="SVN" x="-22.86" y="10.16" length="middle"/>
+<pin name="SVP" x="-22.86" y="12.7" length="middle"/>
+<pin name="EN" x="-22.86" y="15.24" length="middle"/>
+<pin name="GND_L" x="-22.86" y="17.78" length="middle"/>
+<pin name="3V3" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="IO17" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="IO5" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="IO18" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="IO23" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="IO19" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="IO22" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="UORX" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="UOTX" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="IO21" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="GND_R" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="IO4" x="7.62" y="-22.86" length="middle" rot="R90"/>
+<pin name="IO0" x="5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="IO2" x="2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="GND_B" x="0" y="-22.86" length="middle" rot="R90"/>
+<pin name="IO15" x="-2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="IO13" x="-5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="IO12" x="-7.62" y="-22.86" length="middle" rot="R90"/>
+<pin name="IO14" x="-10.16" y="-22.86" length="middle" rot="R90"/>
+<pin name="IO16" x="10.16" y="-22.86" length="middle" rot="R90"/>
+<text x="-17.78" y="24.384" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="2.54" size="2.54" layer="95">ESP32</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2511,6 +2690,51 @@ MODULE</text>
 <connect gate="G$1" pin="IN-" pad="2"/>
 <connect gate="G$1" pin="OUT+" pad="4"/>
 <connect gate="G$1" pin="OUT-" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP32" prefix="MOD" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="ESP32" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="ESP32">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND_B" pad="GND_B"/>
+<connect gate="G$1" pin="GND_L" pad="GND_L"/>
+<connect gate="G$1" pin="GND_R" pad="GND_R"/>
+<connect gate="G$1" pin="IO0" pad="IO0"/>
+<connect gate="G$1" pin="IO12" pad="IO12"/>
+<connect gate="G$1" pin="IO13" pad="IO13"/>
+<connect gate="G$1" pin="IO14" pad="IO14"/>
+<connect gate="G$1" pin="IO15" pad="IO15"/>
+<connect gate="G$1" pin="IO16" pad="IO16"/>
+<connect gate="G$1" pin="IO17" pad="IO17"/>
+<connect gate="G$1" pin="IO18" pad="IO18"/>
+<connect gate="G$1" pin="IO19" pad="IO19"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO21" pad="IO21"/>
+<connect gate="G$1" pin="IO22" pad="IO22"/>
+<connect gate="G$1" pin="IO23" pad="IO23"/>
+<connect gate="G$1" pin="IO25" pad="IO25"/>
+<connect gate="G$1" pin="IO26" pad="IO26"/>
+<connect gate="G$1" pin="IO27" pad="IO27"/>
+<connect gate="G$1" pin="IO32" pad="IO32"/>
+<connect gate="G$1" pin="IO33" pad="IO33"/>
+<connect gate="G$1" pin="IO34" pad="IO34"/>
+<connect gate="G$1" pin="IO35" pad="IO35"/>
+<connect gate="G$1" pin="IO4" pad="IO4"/>
+<connect gate="G$1" pin="IO5" pad="IO5"/>
+<connect gate="G$1" pin="SVN" pad="SVN"/>
+<connect gate="G$1" pin="SVP" pad="SVP"/>
+<connect gate="G$1" pin="UORX" pad="U0RX"/>
+<connect gate="G$1" pin="UOTX" pad="U0TX"/>
 </connects>
 <technologies>
 <technology name=""/>
