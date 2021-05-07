@@ -1703,6 +1703,36 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <text x="-5.3975" y="-6.1595" size="1.016" layer="21" font="vector" ratio="15">1</text>
 <text x="-2.921" y="-10.2235" size="1.016" layer="21" font="vector" ratio="15">2</text>
 </package>
+<package name="LOGIC-CONVERTER-4CH">
+<pad name="3" x="0" y="-5.95" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="-2.54" y="-5.95" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="1" x="-5.08" y="-5.95" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="4" x="2.54" y="-5.95" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="5" x="5.08" y="-5.95" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="8" x="5.08" y="4.01" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="9" x="2.54" y="4.01" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="10" x="0" y="4.01" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="11" x="-2.54" y="4.01" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="12" x="-5.08" y="4.01" drill="1" diameter="1.778" shape="octagon"/>
+<wire x1="-6.2" y1="5.08" x2="8.69" y2="5.08" width="0.127" layer="21"/>
+<wire x1="8.69" y1="5.08" x2="8.69" y2="-7.02" width="0.127" layer="21"/>
+<wire x1="8.69" y1="-7.02" x2="-6.2" y2="-7.02" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="-7.02" x2="-6.2" y2="5.08" width="0.127" layer="21"/>
+<pad name="7" x="7.62" y="4.01" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="6" x="7.62" y="-5.95" drill="1" diameter="1.778" shape="octagon"/>
+<text x="1.5875" y="1.905" size="0.762" layer="21" font="vector" ratio="13">GND</text>
+<text x="-0.635" y="1.905" size="0.762" layer="21" font="vector" ratio="13">HV</text>
+<text x="-6.0325" y="1.905" size="0.762" layer="21" font="vector" ratio="13">HV1</text>
+<text x="-3.4925" y="1.905" size="0.762" layer="21" font="vector" ratio="13">HV2</text>
+<text x="4.1275" y="1.905" size="0.762" layer="21" font="vector" ratio="13">HV3</text>
+<text x="6.6675" y="1.905" size="0.762" layer="21" font="vector" ratio="13">HV4</text>
+<text x="1.5875" y="-4.7625" size="0.762" layer="21" font="vector" ratio="13">GND</text>
+<text x="-0.635" y="-4.7625" size="0.762" layer="21" font="vector" ratio="13">LV</text>
+<text x="-6.0325" y="-4.7625" size="0.762" layer="21" font="vector" ratio="13">LV1</text>
+<text x="-3.4925" y="-4.7625" size="0.762" layer="21" font="vector" ratio="13">LV2</text>
+<text x="4.1275" y="-4.7625" size="0.762" layer="21" font="vector" ratio="13">LV3</text>
+<text x="6.6675" y="-4.7625" size="0.762" layer="21" font="vector" ratio="13">LV4</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -2405,6 +2435,26 @@ MODULE</text>
 <text x="-7.62" y="-12.192" size="1.27" layer="96" font="vector" ratio="15">SI5351</text>
 <text x="-7.62" y="10.922" size="1.27" layer="95" font="vector" ratio="15">&gt;NAME</text>
 </symbol>
+<symbol name="LEVEL-CONVERTER-4CH">
+<pin name="LV1" x="-15.24" y="5.08" length="middle"/>
+<pin name="LV2" x="-15.24" y="2.54" length="middle"/>
+<pin name="LV" x="-15.24" y="0" length="middle" direction="pwr"/>
+<pin name="GND" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
+<pin name="LV3" x="-15.24" y="-5.08" length="middle"/>
+<pin name="LV4" x="-15.24" y="-7.62" length="middle"/>
+<pin name="HV4" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="HV3" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND@1" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="HV" x="15.24" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="HV2" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="HV1" x="15.24" y="5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.382" size="1.4224" layer="95" ratio="10">&gt;NAME</text>
+<text x="-8.636" y="-12.446" size="1.4224" layer="96" ratio="10">LEVEL CONVERTER</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RDA5807" prefix="MOD">
@@ -3061,6 +3111,32 @@ MODULE</text>
 <connect gate="G$1" pin="SCL" pad="4"/>
 <connect gate="G$1" pin="SDA" pad="5"/>
 <connect gate="G$1" pin="VCC" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LEVEL-CONVERTER-4CH" prefix="MOD" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LEVEL-CONVERTER-4CH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LOGIC-CONVERTER-4CH">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GND@1" pad="9"/>
+<connect gate="G$1" pin="HV" pad="10"/>
+<connect gate="G$1" pin="HV1" pad="12"/>
+<connect gate="G$1" pin="HV2" pad="11"/>
+<connect gate="G$1" pin="HV3" pad="8"/>
+<connect gate="G$1" pin="HV4" pad="7"/>
+<connect gate="G$1" pin="LV" pad="3"/>
+<connect gate="G$1" pin="LV1" pad="1"/>
+<connect gate="G$1" pin="LV2" pad="2"/>
+<connect gate="G$1" pin="LV3" pad="5"/>
+<connect gate="G$1" pin="LV4" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
