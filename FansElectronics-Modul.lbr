@@ -1751,6 +1751,49 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <wire x1="45.4025" y1="-15.875" x2="-28.8925" y2="-15.875" width="0.127" layer="21"/>
 <wire x1="-28.8925" y1="-15.875" x2="-28.8925" y2="14.605" width="0.127" layer="21"/>
 </package>
+<package name="TP4056-STEPUP">
+<wire x1="-17.78" y1="11.43" x2="-11.7475" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-11.7475" y1="11.43" x2="-5.3975" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-5.3975" y1="11.43" x2="16.51" y2="11.43" width="0.127" layer="21"/>
+<wire x1="16.51" y1="11.43" x2="16.51" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-12.7" x2="-17.78" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="11.43" width="0.127" layer="21"/>
+<pad name="4" x="-15.875" y="9.525" drill="2" diameter="3.81" shape="square"/>
+<pad name="3" x="-1.27" y="9.525" drill="2" diameter="3.81" shape="square"/>
+<pad name="5" x="-13.0175" y="-10.795" drill="2" diameter="3.81" shape="square"/>
+<pad name="6" x="-3.4925" y="-10.795" drill="2" diameter="3.81" shape="square"/>
+<pad name="1" x="14.605" y="9.8425" drill="2" diameter="3" shape="square"/>
+<pad name="2" x="6.0325" y="9.8425" drill="2" diameter="3" shape="square"/>
+<wire x1="14.605" y1="10.16" x2="14.605" y2="9.8425" width="0.127" layer="21"/>
+<wire x1="15.875" y1="0" x2="15.875" y2="-7.3025" width="0.127" layer="21"/>
+<wire x1="15.875" y1="-7.3025" x2="8.89" y2="-7.3025" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-7.3025" x2="8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="8.89" y1="0" x2="15.875" y2="0" width="0.127" layer="21"/>
+<wire x1="10.16" y1="5.3975" x2="11.43" y2="5.3975" width="0.127" layer="21"/>
+<wire x1="11.43" y1="5.3975" x2="15.24" y2="5.3975" width="0.127" layer="21"/>
+<wire x1="15.24" y1="5.3975" x2="15.24" y2="2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="5.3975" x2="10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="2.54" x2="11.43" y2="2.54" width="0.127" layer="21"/>
+<wire x1="11.43" y1="2.54" x2="15.24" y2="2.54" width="0.127" layer="21"/>
+<wire x1="11.43" y1="5.3975" x2="11.43" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="0" x2="-15.24" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-6.35" x2="-10.16" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-6.35" x2="-10.16" y2="0" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="0" x2="-15.24" y2="0" width="0.127" layer="21"/>
+<wire x1="-11.7475" y1="11.43" x2="-11.7475" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-11.7475" y1="7.62" x2="-5.3975" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-5.3975" y1="7.62" x2="-5.3975" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-5.3975" y1="11.43" x2="-5.3975" y2="12.065" width="0.127" layer="21"/>
+<wire x1="-5.3975" y1="12.065" x2="-11.7475" y2="12.065" width="0.127" layer="21"/>
+<wire x1="-11.7475" y1="12.065" x2="-11.7475" y2="11.43" width="0.127" layer="21"/>
+<circle x="5.08" y="3.81" radius="1.79605" width="0.127" layer="21"/>
+<wire x1="4.445" y1="4.445" x2="5.715" y2="3.175" width="0.127" layer="21"/>
+<wire x1="4.445" y1="3.175" x2="5.715" y2="4.445" width="0.127" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="7.62" y2="6.35" width="0.127" layer="21"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="6.35" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -2241,6 +2284,8 @@ MODULE</text>
 <pin name="OUT-" x="15.24" y="-5.08" length="short" rot="R180"/>
 <pin name="BAT+" x="15.24" y="2.54" length="short" rot="R180"/>
 <pin name="BAT-" x="15.24" y="-2.54" length="short" rot="R180"/>
+<text x="-12.7" y="8.128" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-9.398" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="ACS712">
 <wire x1="-15.24" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
@@ -2488,6 +2533,20 @@ MODULE</text>
 <pin name="VCC" x="2.54" y="-5.08" length="middle" rot="R180"/>
 <text x="-24.892" y="5.842" size="1.27" layer="95">&gt;NAME</text>
 <text x="-25.146" y="-9.652" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TP4056-STEPUP">
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="IN+" x="-17.78" y="5.08" length="middle" direction="pwr"/>
+<pin name="IN-" x="-17.78" y="0" length="middle" direction="pwr"/>
+<pin name="OUT+" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT-" x="17.78" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="BAT+" x="17.78" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="BAT-" x="17.78" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<text x="-12.7" y="10.922" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-7.366" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2978,12 +3037,12 @@ MODULE</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP4056">
+<deviceset name="TP4056" prefix="MOD">
 <gates>
 <gate name="G$1" symbol="TP4056" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TP4056">
+<device name="&quot;" package="TP4056">
 <connects>
 <connect gate="G$1" pin="BAT+" pad="5"/>
 <connect gate="G$1" pin="BAT-" pad="4"/>
@@ -2991,6 +3050,19 @@ MODULE</text>
 <connect gate="G$1" pin="IN-" pad="2"/>
 <connect gate="G$1" pin="OUT+" pad="6"/>
 <connect gate="G$1" pin="OUT-" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="STEPUP" package="TP4056-STEPUP">
+<connects>
+<connect gate="G$1" pin="BAT+" pad="6"/>
+<connect gate="G$1" pin="BAT-" pad="5"/>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="4"/>
+<connect gate="G$1" pin="OUT+" pad="1"/>
+<connect gate="G$1" pin="OUT-" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
