@@ -401,16 +401,14 @@ shrink quad flat pack, square</description>
 <pad name="5" x="3.81" y="-0.635" drill="0.8128" diameter="1.524" rot="R270"/>
 <pad name="3" x="3.81" y="1.905" drill="0.8128" diameter="1.524" rot="R270"/>
 <pad name="6" x="6.35" y="-1.905" drill="0.8128" diameter="1.524" rot="R270"/>
-<pad name="16" x="0.381" y="-8.001" drill="1.651" diameter="2.159" rot="R270"/>
-<pad name="15" x="0.381" y="8.001" drill="1.651" diameter="2.159" rot="R270"/>
+<pad name="16" x="0.6985" y="-8.001" drill="2" diameter="3" rot="R270"/>
+<pad name="15" x="0.6985" y="8.001" drill="2" diameter="3" rot="R270"/>
 <pad name="1" x="3.81" y="4.445" drill="0.8128" diameter="1.524" shape="square" rot="R270"/>
 <pad name="2" x="6.35" y="3.175" drill="0.8128" diameter="1.524" rot="R270"/>
 <text x="2.54" y="8.255" size="1.27" layer="25">&gt;NAME</text>
 <text x="8.89" y="-1.905" size="1.27" layer="27" rot="R270">&gt;VALUE</text>
 <hole x="-2.54" y="5.715" drill="3.556"/>
 <hole x="-2.54" y="-5.715" drill="3.556"/>
-<pad name="17" x="-5.969" y="8.001" drill="1.651" diameter="2.159" rot="R270"/>
-<pad name="18" x="-5.969" y="-8.001" drill="1.651" diameter="2.159" rot="R270"/>
 </package>
 </packages>
 <symbols>
@@ -949,8 +947,8 @@ IC Ethernet Shield</description>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="SHIELD1" pad="15 17"/>
-<connect gate="G$1" pin="SHIELD2" pad="16 18"/>
+<connect gate="G$1" pin="SHIELD1" pad="15"/>
+<connect gate="G$1" pin="SHIELD2" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
