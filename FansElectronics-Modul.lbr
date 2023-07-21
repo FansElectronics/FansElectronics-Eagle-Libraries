@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2323,6 +2323,18 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <pad name="2.19" x="11.43" y="-13.335" drill="1"/>
 <pad name="2.20" x="13.97" y="-13.335" drill="1"/>
 </package>
+<package name="BMS-3S">
+<pad name="1" x="10.16" y="5.08" drill="1.2" diameter="2.54" shape="square"/>
+<pad name="2" x="10.16" y="0" drill="1.2" diameter="2.54" shape="square"/>
+<pad name="3" x="3.81" y="11.43" drill="1.2" diameter="2.54" shape="square"/>
+<pad name="6" x="-36.83" y="-6.35" drill="1.2" diameter="2.54" shape="square"/>
+<pad name="4" x="3.81" y="-6.35" drill="1.2" diameter="2.54" shape="square"/>
+<pad name="5" x="-16.51" y="-6.35" drill="1.2" diameter="2.54" shape="square"/>
+<wire x1="-45.72" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="21"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-7.62" x2="-45.72" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-45.72" y1="-7.62" x2="-45.72" y2="12.7" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -3172,6 +3184,20 @@ MODULE</text>
 <pin name="TXD" x="12.7" y="27.94" length="middle" rot="R180"/>
 <text x="-17.78" y="-27.94" size="1.27" layer="96">WEMOS D1 MINI 32</text>
 <text x="-17.78" y="34.29" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="BMS-3S">
+<pin name="OUT+" x="22.86" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT-" x="22.86" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="8.4V" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<pin name="4.2V" x="-5.08" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<pin name="0V" x="-10.16" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<wire x1="17.78" y1="5.08" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="17.78" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="5.08" width="0.254" layer="94"/>
+<pin name="12.6V" x="5.08" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<text x="-15.24" y="6.35" size="1.27" layer="95">&gt;NAME</text>
+<text x="7.62" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
