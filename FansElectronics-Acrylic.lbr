@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -197,18 +197,18 @@
 <circle x="34" y="18" radius="2" width="0.1" layer="21"/>
 </package>
 <package name="LCD16X2">
-<circle x="-37.5" y="14.96" radius="1.802775" width="0.254" layer="21"/>
-<circle x="37.5" y="14.96" radius="1.802775" width="0.254" layer="21"/>
-<circle x="37.5" y="-16.04" radius="1.802775" width="0.254" layer="21"/>
-<circle x="-37.5" y="-16.04" radius="1.802775" width="0.254" layer="21"/>
-<wire x1="-35.5" y1="11.96" x2="35.5" y2="11.96" width="0.254" layer="21"/>
-<wire x1="35.5" y1="11.96" x2="35.5" y2="-12.54" width="0.254" layer="21"/>
-<wire x1="35.5" y1="-12.54" x2="-35.5" y2="-12.54" width="0.254" layer="21"/>
-<wire x1="-35.5" y1="-12.54" x2="-35.5" y2="11.96" width="0.254" layer="21"/>
-<wire x1="-40.005" y1="17.78" x2="40.005" y2="17.78" width="0.127" layer="51"/>
-<wire x1="40.005" y1="17.78" x2="40.005" y2="-19.05" width="0.127" layer="51"/>
-<wire x1="40.005" y1="-19.05" x2="-40.005" y2="-19.05" width="0.127" layer="51"/>
-<wire x1="-40.005" y1="-19.05" x2="-40.005" y2="17.78" width="0.127" layer="51"/>
+<circle x="-37.5" y="14.96" radius="1.802775" width="0.1" layer="21"/>
+<circle x="37.5" y="14.96" radius="1.802775" width="0.1" layer="21"/>
+<circle x="37.5" y="-16.04" radius="1.802775" width="0.1" layer="21"/>
+<circle x="-37.5" y="-16.04" radius="1.802775" width="0.1" layer="21"/>
+<wire x1="-35.5" y1="11.96" x2="35.5" y2="11.96" width="0.1" layer="21"/>
+<wire x1="35.5" y1="11.96" x2="35.5" y2="-12.54" width="0.1" layer="21"/>
+<wire x1="35.5" y1="-12.54" x2="-35.5" y2="-12.54" width="0.1" layer="21"/>
+<wire x1="-35.5" y1="-12.54" x2="-35.5" y2="11.96" width="0.1" layer="21"/>
+<wire x1="-40.005" y1="17.78" x2="40.005" y2="17.78" width="0.1" layer="51"/>
+<wire x1="40.005" y1="17.78" x2="40.005" y2="-19.05" width="0.1" layer="51"/>
+<wire x1="40.005" y1="-19.05" x2="-40.005" y2="-19.05" width="0.1" layer="51"/>
+<wire x1="-40.005" y1="-19.05" x2="-40.005" y2="17.78" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
