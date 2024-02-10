@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -209,6 +209,20 @@
 <wire x1="40.005" y1="17.78" x2="40.005" y2="-19.05" width="0.1" layer="51"/>
 <wire x1="40.005" y1="-19.05" x2="-40.005" y2="-19.05" width="0.1" layer="51"/>
 <wire x1="-40.005" y1="-19.05" x2="-40.005" y2="17.78" width="0.1" layer="51"/>
+</package>
+<package name="NEXTION-NX4024K032">
+<wire x1="-37" y1="21" x2="37" y2="21" width="0.1" layer="51"/>
+<wire x1="37" y1="21" x2="37" y2="-21" width="0.1" layer="51"/>
+<wire x1="37" y1="-21" x2="-37" y2="-21" width="0.1" layer="51"/>
+<wire x1="-37" y1="-21" x2="-37" y2="21" width="0.1" layer="51"/>
+<wire x1="-30" y1="21" x2="30" y2="21" width="0.1" layer="21"/>
+<wire x1="30" y1="21" x2="30" y2="-21" width="0.1" layer="21"/>
+<wire x1="30" y1="-21" x2="-30" y2="-21" width="0.1" layer="21"/>
+<wire x1="-30" y1="-21" x2="-30" y2="21" width="0.1" layer="21"/>
+<circle x="-34" y="18" radius="2" width="0.1" layer="21"/>
+<circle x="-34" y="-18" radius="2" width="0.1" layer="21"/>
+<circle x="34" y="-18" radius="2" width="0.1" layer="21"/>
+<circle x="34" y="18" radius="2" width="0.1" layer="21"/>
 </package>
 </packages>
 <symbols>
