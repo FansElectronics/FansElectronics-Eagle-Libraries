@@ -2985,6 +2985,20 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <text x="-5.08" y="-12.7" size="1.778" layer="25">&gt;NAME</text>
 <text x="-5.715" y="10.795" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="NRF24L01-HEADER">
+<pad name="1" x="-1.27" y="3.81" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-1.27" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="5" x="-1.27" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="7" x="-1.27" y="-3.81" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="8" x="1.27" y="-3.81" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="6" x="1.27" y="-1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="4" x="1.27" y="1.27" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="1.27" y="3.81" drill="1" diameter="1.6764" shape="octagon"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -5021,7 +5035,22 @@ MODULE</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="NRF24L01">
+<device name="&quot;" package="NRF24L01">
+<connects>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="CE" pad="3"/>
+<connect gate="G$1" pin="CS" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IRQ" pad="8"/>
+<connect gate="G$1" pin="MISO" pad="7"/>
+<connect gate="G$1" pin="MOSI" pad="6"/>
+<connect gate="G$1" pin="SCK" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HEADER" package="NRF24L01-HEADER">
 <connects>
 <connect gate="G$1" pin="3V3" pad="2"/>
 <connect gate="G$1" pin="CE" pad="3"/>
