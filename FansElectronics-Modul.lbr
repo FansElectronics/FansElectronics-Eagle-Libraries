@@ -2999,6 +2999,16 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
 </package>
+<package name="GPS-NEO-6M">
+<wire x1="-17.78" y1="12.7" x2="17.78" y2="12.7" width="0.127" layer="21"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="17.78" y1="-12.7" x2="-17.78" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="12.7" width="0.127" layer="21"/>
+<pad name="2" x="-16.51" y="1.27" drill="0.8" shape="long"/>
+<pad name="3" x="-16.51" y="-1.27" drill="0.8" shape="long"/>
+<pad name="1" x="-16.51" y="3.81" drill="0.8" shape="long"/>
+<pad name="4" x="-16.51" y="-3.81" drill="0.8" shape="long"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -4106,6 +4116,18 @@ MODULE</text>
 <wire x1="-10.16" y1="-12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <text x="-10.16" y="11.43" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="GPS-NEO-6M">
+<pin name="GND" x="-15.24" y="5.08" length="middle" direction="pwr"/>
+<pin name="TX" x="-15.24" y="2.54" length="middle"/>
+<pin name="RX" x="-15.24" y="0" length="middle"/>
+<pin name="5V" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="10.922" size="1.27" layer="104">&gt;NAME</text>
+<text x="-10.16" y="-9.906" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5282,6 +5304,24 @@ MODULE</text>
 <connect gate="G$1" pin="STEP" pad="7"/>
 <connect gate="G$1" pin="VCC" pad="10"/>
 <connect gate="G$1" pin="VMOT" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPS-NEO-6M" prefix="MOD" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="GPS-NEO-6M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GPS-NEO-6M">
+<connects>
+<connect gate="G$1" pin="5V" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RX" pad="3"/>
+<connect gate="G$1" pin="TX" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
