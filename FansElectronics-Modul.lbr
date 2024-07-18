@@ -3023,6 +3023,25 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <text x="-14.605" y="6.985" size="1.27" layer="25">&gt;NAME</text>
 <text x="-14.605" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="L298">
+<pad name="1" x="0" y="3.81" drill="0.8" shape="octagon"/>
+<pad name="2" x="0" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="4" x="0" y="-3.81" drill="0.8" shape="octagon"/>
+<pad name="5" x="0" y="-6.35" drill="0.8" shape="octagon"/>
+<pad name="6" x="0" y="-8.89" drill="0.8" shape="octagon"/>
+<pad name="7" x="0" y="-11.43" drill="0.8" shape="octagon"/>
+<pad name="8" x="0" y="-13.97" drill="0.8" shape="octagon"/>
+<pad name="9" x="0" y="-16.51" drill="0.8" shape="octagon"/>
+<pad name="13" x="13.97" y="3.81" drill="0.8" shape="octagon"/>
+<pad name="12" x="13.97" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="10" x="13.97" y="-16.51" drill="0.8" shape="octagon"/>
+<pad name="11" x="13.97" y="-13.97" drill="0.8" shape="octagon"/>
+<wire x1="-1.27" y1="5.08" x2="15.24" y2="5.08" width="0.127" layer="21"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-17.78" x2="-1.27" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-17.78" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -4156,6 +4175,27 @@ MODULE</text>
 <pin name="A0" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <text x="-12.954" y="8.636" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="L298">
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<pin name="5V" x="-15.24" y="10.16" length="middle" direction="pwr"/>
+<pin name="GND" x="-15.24" y="-12.7" length="middle" direction="pwr"/>
+<pin name="PWM1" x="-15.24" y="5.08" length="middle"/>
+<pin name="IN1A" x="-15.24" y="2.54" length="middle"/>
+<pin name="IN1B" x="-15.24" y="0" length="middle"/>
+<pin name="IN2A" x="-15.24" y="-2.54" length="middle"/>
+<pin name="IN2B" x="-15.24" y="-5.08" length="middle"/>
+<pin name="PWM2" x="-15.24" y="-7.62" length="middle"/>
+<pin name="M1A" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="M1B" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="M2B" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="M2A" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="6V-35V" x="-15.24" y="12.7" length="middle" direction="pwr"/>
+<text x="-10.16" y="16.002" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5370,6 +5410,33 @@ MODULE</text>
 <connect gate="G$1" pin="SEN+" pad="1"/>
 <connect gate="G$1" pin="SEN-" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L298" prefix="MOD">
+<gates>
+<gate name="G$1" symbol="L298" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="L298">
+<connects>
+<connect gate="G$1" pin="5V" pad="2"/>
+<connect gate="G$1" pin="6V-35V" pad="1"/>
+<connect gate="G$1" pin="GND" pad="9"/>
+<connect gate="G$1" pin="IN1A" pad="4"/>
+<connect gate="G$1" pin="IN1B" pad="5"/>
+<connect gate="G$1" pin="IN2A" pad="6"/>
+<connect gate="G$1" pin="IN2B" pad="7"/>
+<connect gate="G$1" pin="M1A" pad="13"/>
+<connect gate="G$1" pin="M1B" pad="12"/>
+<connect gate="G$1" pin="M2A" pad="11"/>
+<connect gate="G$1" pin="M2B" pad="10"/>
+<connect gate="G$1" pin="PWM1" pad="3"/>
+<connect gate="G$1" pin="PWM2" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
