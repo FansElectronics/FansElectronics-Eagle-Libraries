@@ -3186,6 +3186,19 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 <circle x="9.525" y="-8.255" radius="2.00804375" width="0.127" layer="21"/>
 <circle x="9.525" y="-3.81" radius="2.00804375" width="0.127" layer="21"/>
 </package>
+<package name="INA219">
+<pad name="3" x="0" y="1.27" drill="0.8" shape="long"/>
+<pad name="2" x="0" y="3.81" drill="0.8" shape="long"/>
+<pad name="1" x="0" y="6.35" drill="0.8" shape="long"/>
+<pad name="4" x="0" y="-1.27" drill="0.8" shape="long"/>
+<pad name="5" x="0" y="-3.81" drill="0.8" shape="long"/>
+<pad name="6" x="0" y="-6.35" drill="0.8" shape="long"/>
+<wire x1="-1.27" y1="12.7" x2="21.2725" y2="12.7" width="0.127" layer="21"/>
+<wire x1="21.2725" y1="12.7" x2="21.2725" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="21.2725" y1="-12.7" x2="-1.27" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-12.7" x2="-1.27" y2="12.7" width="0.127" layer="21"/>
+<text x="3.81" y="-3.81" size="1.6764" layer="21" rot="SR90">INA219</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -4464,6 +4477,20 @@ MODULE</text>
 <circle x="2.54" y="6.604" radius="1.481059375" width="0.254" layer="94"/>
 <circle x="2.54" y="-7.62" radius="1.481059375" width="0.254" layer="94"/>
 <circle x="2.54" y="-4.064" radius="1.481059375" width="0.254" layer="94"/>
+</symbol>
+<symbol name="INA219">
+<pin name="VCC" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="SCL" x="-12.7" y="0" length="middle"/>
+<pin name="SDA" x="-12.7" y="-2.54" length="middle"/>
+<pin name="IN-" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<pin name="IN+" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.874" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.874" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5861,6 +5888,26 @@ MODULE</text>
 <connect gate="G$1" pin="SDA" pad="6"/>
 <connect gate="G$1" pin="VBS" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="INA219" prefix="MOD">
+<gates>
+<gate name="G$1" symbol="INA219" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INA219">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN+" pad="6"/>
+<connect gate="G$1" pin="IN-" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
