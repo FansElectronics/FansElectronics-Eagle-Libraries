@@ -448,6 +448,25 @@ Version: 2.0 / 22.01.2017&lt;br&gt;
 <text x="12.7" y="-6.35" size="1.27" layer="27">+vo</text>
 <text x="-15.24" y="-5.08" size="1.27" layer="27">~AC</text>
 </package>
+<package name="SOT23-5">
+<smd name="1" x="-0.95" y="-1.3001" dx="0.69" dy="0.99" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.69" dy="0.99" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.69" dy="0.99" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.69" dy="0.99" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.69" dy="0.99" layer="1"/>
+<text x="-1.778" y="0" size="0.6096" layer="27" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;VALUE</text>
+<wire x1="1.43" y1="0.8" x2="1.43" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.43" y1="-0.8" x2="-1.41" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.41" y1="-0.8" x2="-1.41" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.41" y1="0.8" x2="1.43" y2="0.8" width="0.127" layer="51"/>
+<text x="-0.495" y="-0.395" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<rectangle x1="-1.1" y1="0.8" x2="-0.77" y2="1.43" layer="51"/>
+<rectangle x1="0.8" y1="0.8" x2="1.13" y2="1.42" layer="51"/>
+<rectangle x1="-1.1" y1="-1.42" x2="-0.77" y2="-0.8" layer="51"/>
+<rectangle x1="-0.15" y1="-1.42" x2="0.18" y2="-0.8" layer="51"/>
+<rectangle x1="0.8" y1="-1.42" x2="1.13" y2="-0.8" layer="51"/>
+<rectangle x1="-1.365" y1="-0.75" x2="-0.615" y2="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LM2576">
@@ -512,6 +531,19 @@ Version: 2.0 / 22.01.2017&lt;br&gt;
 <pin name="AC/N" x="-12.7" y="-2.54" length="short"/>
 <text x="-10.16" y="8.128" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ME6211">
+<pin name="IN" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="VSS" x="-12.7" y="0" length="middle" direction="in"/>
+<pin name="CE" x="-12.7" y="-2.54" length="middle" direction="in"/>
+<pin name="NC" x="12.7" y="-2.54" length="middle" direction="nc" rot="R180"/>
+<pin name="OUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.588" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-6.858" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -710,6 +742,26 @@ Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf</description>
 <technologies>
 <technology name="01"/>
 <technology name="O3"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ME6211C" prefix="IC">
+<gates>
+<gate name="G$1" symbol="ME6211" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="CE" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="33"/>
+<technology name="50"/>
 </technologies>
 </device>
 </devices>
