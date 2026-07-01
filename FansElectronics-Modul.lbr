@@ -3302,6 +3302,24 @@ Version: 2.0 / 22.05.2017&lt;br&gt;
 </polygon>
 <text x="0.635" y="-0.635" size="1.6764" layer="27" font="vector" ratio="14">BMS-2S</text>
 </package>
+<package name="ADS1115">
+<pad name="1" x="-7.62" y="10.16" drill="0.8" shape="long"/>
+<pad name="2" x="-7.62" y="7.62" drill="0.8" shape="long"/>
+<pad name="3" x="-7.62" y="5.08" drill="0.8" shape="long"/>
+<pad name="4" x="-7.62" y="2.54" drill="0.8" shape="long"/>
+<pad name="5" x="-7.62" y="0" drill="0.8" shape="long"/>
+<pad name="6" x="-7.62" y="-2.54" drill="0.8" shape="long"/>
+<pad name="7" x="-7.62" y="-5.08" drill="0.8" shape="long"/>
+<pad name="8" x="-7.62" y="-7.62" drill="0.8" shape="long"/>
+<pad name="9" x="-7.62" y="-10.16" drill="0.8" shape="long"/>
+<pad name="10" x="-7.62" y="-12.7" drill="0.8" shape="long"/>
+<wire x1="-10.16" y1="11.43" x2="7.62" y2="11.43" width="0.127" layer="21"/>
+<wire x1="7.62" y1="11.43" x2="7.62" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-13.97" x2="-10.16" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-13.97" x2="-10.16" y2="11.43" width="0.127" layer="21"/>
+<text x="-10.16" y="12.065" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-15.875" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RDA5807">
@@ -4700,6 +4718,24 @@ MODULE</text>
 <pin name="B+" x="22.86" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <text x="-18.034" y="8.382" size="1.778" layer="95">&gt;NAME</text>
 <text x="-18.034" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ADS1115">
+<wire x1="-12.7" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<pin name="VCC" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+<pin name="GND" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="SCL" x="-17.78" y="7.62" length="middle"/>
+<pin name="SDA" x="-17.78" y="5.08" length="middle"/>
+<pin name="ADDR" x="-17.78" y="2.54" length="middle"/>
+<pin name="ALRT" x="-17.78" y="0" length="middle"/>
+<pin name="A0" x="-17.78" y="-2.54" length="middle"/>
+<pin name="A1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="A2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="A3" x="-17.78" y="-10.16" length="middle"/>
+<text x="-12.954" y="15.748" size="1.778" layer="104">&gt;NAME</text>
+<text x="-12.7" y="-14.986" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6231,6 +6267,30 @@ MODULE</text>
 <connect gate="G$1" pin="BM" pad="BM"/>
 <connect gate="G$1" pin="P+" pad="P+"/>
 <connect gate="G$1" pin="P-" pad="P-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADS1115" prefix="MOD" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="ADS1115" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ADS1115">
+<connects>
+<connect gate="G$1" pin="A0" pad="7"/>
+<connect gate="G$1" pin="A1" pad="8"/>
+<connect gate="G$1" pin="A2" pad="9"/>
+<connect gate="G$1" pin="A3" pad="10"/>
+<connect gate="G$1" pin="ADDR" pad="5"/>
+<connect gate="G$1" pin="ALRT" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
